@@ -8,12 +8,12 @@ import Sidebar from './Components/Sidebar'
 
 function App(){
   return (
-    <div style={{display: "flex", flexDirection: "row"}}>
+    <div style={{display: "flex", justifyContent: "space-around", paddingTop:'40px'}}>
        <Sidebar />
        <div>
        <Header />
        <Gallery />
-    </div>  
+      </div>  
     </div>
   );
 }
